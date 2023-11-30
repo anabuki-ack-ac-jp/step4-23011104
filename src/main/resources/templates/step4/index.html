@@ -26,6 +26,14 @@
             <tr>
               <th>学籍番号</th>
               <th>名前</th>
+              <th>専攻学科</th>
+
+
+
+
+
+
+
             </tr>
             <tr th:each="student : ${studentList}">
               <td th:text="${student.id}"></td>
@@ -37,5 +45,6 @@
     </div>
   </div>
 </body>
+
 
 </html>
